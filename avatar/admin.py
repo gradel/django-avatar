@@ -2,8 +2,8 @@ from django.contrib import admin
 from django.utils.translation import ugettext_lazy as _
 
 from avatar.models import Avatar
-from avatar.templatetags.avatar_tags import avatar
 from avatar.signals import avatar_updated
+from avatar.templatetags.avatar_tags import avatar
 from avatar.util import get_user_model
 
 
